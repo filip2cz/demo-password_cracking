@@ -22,7 +22,7 @@ pkgs.mkShell {
     echo ""
     echo "Užitečné příkazy pro demonstraci:"
     echo ""
-    echo " 1) Zjištění názvu WiFi modulu
+    echo " 1) Zjištění názvu WiFi modulu"
     echo "    ip add"
     echo ""
     echo " 2) Spuštění monitorovacího režimu na WiFi modulu (např. wlp8s0)"
