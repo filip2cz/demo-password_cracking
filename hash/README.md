@@ -10,12 +10,12 @@ Pro zjednodušení byl přidán soubor `shell.nix`, jenž je možné využít pr
 
 Crackování hesel pomocí hashcat s využitím wordlistu:
 ```bash
-hashcat -m 0 --username hashes.txt wordlist.txt"
+hashcat -m 0 --username hashes.txt wordlist.txt
 ```
 
 Crackování hesel pomocí John the Ripper s využitím wordlistu:
 ```bash
-john --format=Raw-MD5 --wordlist=wordlist.txt hashes.txt"
+john --format=Raw-MD5 --wordlist=wordlist.txt hashes.txt
 ```
 
 ## Soubory v repozitáři
