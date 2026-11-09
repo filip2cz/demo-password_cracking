@@ -26,9 +26,6 @@ sudo airmon-ng start [název vašeho wifi adaptéru]
 ```bash
 sudo airodump-ng -c 6 --essid "Demo-Crack-WiFi" -w zive_demo [název vašeho wifi adaptéru]mon
 ```
-```bash
-aircrack-ng -w wordlist.txt zive_demo-01.cap
-```
 
 #### 3. Připojení telefonu
 1. Na mobilním telefonu otevřete nastavení Wi-Fi a připojte se k síti `Demo-Crack-WiFi`.
