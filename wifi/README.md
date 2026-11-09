@@ -1,6 +1,10 @@
 # DEMO 2: Prolamování Wi-Fi (WPA2-PSK 4-way handshake)
 
-Vytvořeno pro Linux
+Vytvořeno pro Linux.
+
+Je třeba mít nainstalovaný program [aircrack-ng](https://www.aircrack-ng.org/https://www.aircrack-ng.org/).
+Pro zjednodušení byl přidán soubor `shell.nix`, jenž je možné využít pro automatickou instalaci všeho potřebného ve správci balíčků [Nix](https://nixos.org/), nebo v operačním systému [NixOS](https://nixos.org/).
+
 
 #### 1. Příprava ESP32-C3
 1. Nahrajte kód ze složky `esp32_ap/` do desky ESP32-C3 (pomocí Arduino IDE nebo PlatformIO).
